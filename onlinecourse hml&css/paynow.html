@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 0;
+            color: white;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            background-color: #3c4e62;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        select {
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .payment-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Payment Website</h1>
+    </header>
+
+    <main>
+        <button onclick="showOptions()">Choose Course</button>
+        <div id="courseOptions" style="display: none;">
+            <label for="course">Select a course:</label>
+            <select id="course">
+                <option value="digital-marketing">Digital Marketing</option>
+                <option value="editing">Editing</option>
+                <option value="web-development">Web Development</option>
+                <option value="ethical-hacking">Ethical Hacking</option>
+                <option value="machine-learning">Machine Learning</option>
+            </select>
+            <button onclick="processPayment()">Pay Now</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Simple Payment Website</p>
+    </footer>
+
+    <script>
+        function showOptions() {
+            document.getElementById('courseOptions').style.display = 'block';
+        }
+
+        function processPayment() {
+            // Placeholder link for payment processing
+            alert('Payment Sucessfull');
+        }
+    </script>
+
+</body>
+</html>

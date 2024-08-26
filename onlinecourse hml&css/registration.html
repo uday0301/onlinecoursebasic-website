@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .registration-container {
+            background-color: #fff;
+            padding: 45px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Register Here</h1>
+    </header>
+
+    <section>
+        <div class="registration-container">
+            <form>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="Phone Number">Phone Number:</label>
+                <input type="Phone Number" id="Phone Number" name="Phone Number" required>
+
+                <label for=" Enter password">Enter Password:</label>
+                <input type=" Enter password" id=" Enter password" name="Enter password" required>
+                
+                <label for="Confirm password"> Confirm Password:</label>
+                <input type="Confirm password" id="Comfirm password" name="Confirm password" required>
+
+           
+            <label for=""><strong>Preferred Language</strong>
+                <select name="" id="">
+                    <option value="">English</option>
+                    <option value="">Hindi</option>
+                    <option value="">Telugu</option>
+                </select>
+             </label> 
+             <input type="checkbox">
+             I Agree to the Terms and Conditions <br>
+             <button type="submit">Register</button>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
